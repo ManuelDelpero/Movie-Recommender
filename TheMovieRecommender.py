@@ -3,7 +3,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 import pandas as pd 
 import numpy as np
 
-movie_data = pd.read_csv('C:/Users/Manuel/Desktop/Python/TheMoviesDataset/movies_metadata.csv', low_memory=False)
+movie_data = pd.read_csv('./movies_metadata.csv', low_memory=False)
 movie_data.head()
 movie_data['overview'].head(10)
 
